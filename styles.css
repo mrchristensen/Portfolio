@@ -1,61 +1,62 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  } */
-
-body {
-    color: #414141;
-    background-color: #EEEEEE;
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-h1 {
+body
+{
+  color: #414141;
+  background-color: #EEEEEE;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+h1
+{
   font-size: 36px;
+  padding: 16px 16px 8px 16px;
+  border-bottom: 1px solid #5D6063;
+  background-color: #DDE0E3;    /* Light gray */
 }
-h2 {
+h2
+{
   font-size: 26px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Helvetica", "Arial", sans-serif;
+p
+{
+  padding: 12px;
 }
 
-h1{
-    background-color: #DDE0E3;    /* Light gray */
-  }
-
-  p {
-    padding: 12px;
-  }
-
-  h1 {
-    padding: 30px 16px 8px 16px;
-    border-bottom: 1px solid #5D6063;
-    }
-
-      .intro-paragraph{
-          size: 18px;
-      }
-      #bar{
-        position: absolute;
-        bottom: 10;
-      }
-
-      .bottom-bar{
-        position: absolute;
-        bottom: 0;
-        background-color: lightcyan;
-        font-style: italic;
-      }
-
-
-
-em{
+/* em
+{
     color: #906015;
+} */
+
+
+
+.byu-logo{
+  margin: 10px;
 }
 
-      /* Header */
-      body {margin:0;}
+.about-body
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* Header */
+.header{
+  float: auto;
+}
+
+body {margin-top:40px;}
 
 ul {
   list-style-type: none;
@@ -73,10 +74,6 @@ li {
   float: left;
 }
 
-/* li:last-child {
-    border-right: none;
-  } */
-
 li a {
   display: block;
   color: white;
@@ -93,11 +90,23 @@ li a:hover:not(.active) {
   background-color: #C8693C;
 }
 
+/* Footer */
+.footer {
+  position: fixed;
+  Width: 100%;
+  bottom: 0;
+  height: 20px;
+  background-color: #D6E9FE;
+  display: flex;
+  justify-content: space-between;
+}
 
+#year {
+  font-size: 12px;
+  padding: 2px;
+}
 
-
-
-
-#info {
-    background-color: lightcyan;
+#name {
+  font-size: 12px;
+  padding: 2px;
 }
