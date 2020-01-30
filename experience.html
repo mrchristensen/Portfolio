@@ -1,38 +1,89 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Experience Page</title>
-        <link rel="stylesheet" href="styles.css">
-        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/>
-    </head>
 
-    <body>
-        <h1>Experience</h1>
+<head>
+    <title>About Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/styles.css" />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+</head>
 
-        <h2>BYU Laboratory of Verification and Validation:</h2>
-        <p>Formal Methods Research Assistant - (Jan 2019-Current)</p>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html"><img src="images/logo.png" width='270' alt="Logo" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav navbar-collapse d-flex justify-content-end">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="experience.html">Experience</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+
+            </ul>
+            <!-- <form class="form-inline my-2 my-lg-0">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form> -->
+        </div>
+    </nav>
+
+    <h1>Experience</h1>
+
+    <h2>BYU Laboratory of Verification and Validation:</h2>
+    <p>Formal Methods Research Assistant - (Jan 2019-Current)</p>
+    <div>
         <ul style="list-style-type:circle">
             <li>Co-developed a memory model and abstract interpreter that performs static analysis of c code using a cesk-style machine to assert the safety of state space and to prove soundness for all c programs</li>
-            <li>Led team of 10 research assistants in monthly discussions analyzing recent relevant scholarship to maintain familiarity with the current research and promote a culture of continuous learning in the lab</li>
-            <li>Authored a 12-page technical tool paper successfully detailing the implementation of an abstract interpreter and its semantics, demonstrating the achievements and future goals of the laboratory's research, and facilitating further funding through grant proposals</li>
-            <li>Created 14 pages of formal documentation for a TLS implementation wrapper that demonstrated the soundness of the implementation by showing how the state space changes with each potential function call</li>
+            <li>Led team of 10 research assistants in monthly discussions analyzing recent relevant scholarship to maintain familiarity with the current research and promote a culture of continuous learning in the lab
+            </li>
+            <li>Authored a 12-page technical tool paper successfully detailing the implementation of an abstract interpreter and its semantics, demonstrating the achievements and future goals of the laboratory's research, and facilitating further funding
+                through grant proposals</li>
+            <li>Created 14 pages of formal documentation for a TLS implementation wrapper that demonstrated the soundness of the implementation by showing how the state space changes with each potential function call
+            </li>
             <li>Presented lab's recent research findings to 120+ STEM undergraduates in a university conference, increasing awareness and support for formal and abstract verification within the university</li>
         </ul>
-        <br>
+    </div>
+    <br>
 
-        <h2>Proficient Languages</h2>
-        <ol>
-            <li>C</li>
-            <li>C++</li>
-            <li>C#</li>
-            <li>Java</li>
-            <li>Python</li>
-            <li>R</li>
-            <li>SQL</li>
-        </ol>
+    <h2>Proficient Languages</h2>
+    <ol>
+        <li>C</li>
+        <li>C++</li>
+        <li>C#</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>R</li>
+        <li>SQL</li>
+    </ol>
 
-        <br>
-        <p>See the <a href="projects.html">projects page</a> for more details about school and personal work.</p>
-    </body>
+    <br>
+    <p>See the <a href="projects.html">projects page</a> for more details about school and personal work.</p>
+
+    <div class="footer">
+        <p id="name">Matthew Christensen</p>
+        <p id="year">2020</p>
+    </div>
+</body>
 
 </html>

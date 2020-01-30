@@ -1,48 +1,64 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Projects Page</title>
-        <link rel="stylesheet" href="styles.css">
-        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/>
-    </head>
 
-    <body>
-        <h1>Projects</h1>
+<head>
+    <title>Projects Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+</head>
 
-        <p>This page contains personal and school projects. <a href="https://github.com/mrchristensen">Here</a> is a link to my github profile,
-             which contains the many of the repositories for the following projects.</p>
+<body>
+    <div class="header">
+        <ul>
+            <li class="header-element"><a href="index.html">Home</a></li>
+            <li class="header-element"><a class="active" href="projects.html">Projects</a></li>
+            <li class="header-element"><a href="experience.html">Experience</a></li>
+            <li class="header-element"><a href="about.html">About</a></li>
+            <li class="header-element"><a href="contact.html">Contact</a></li>
+            <!-- <li style="float:right" class="header-element><a href="#about">About</a></li> -->
+        </ul>
+    </div>
 
-        <h2>School Projects:</h2>
-        <dl>
-            <dt><strong>Datalog Interpreter</strong></dt>
-                <dd>Designed and implemented a simple datalog interpreter on a relational database.</dd>
-            <dt><strong>Image Editor</strong></dt>
-                <dd>A simple image editor that is capable of performing grayscale, inversions, emboss, and motion blur transformations to images.</dd>
-            <dt><strong>Spell Checker</strong></dt>
-             <dd>Implements a trie to check if a word is spelled correctly and offers the most likely correction.</dd>
-            <dt><strong>Web Server</strong></dt>
-                <dd>A simple implementation of a persistent web server. Correctly handles http requests and store information in a SQL database.</dd>
-            <dt><strong>Family Map Android App</strong></dt>
-                <dd>An Android interface that connects to a web sever to display family history information on a map.</dd>
-        </dl>
+    <h1>Projects</h1>
 
-        <br>
+    <p>This page contains personal and school projects. <a href="https://github.com/mrchristensen">Here</a> is a link to my github profile, which contains the many of the repositories for the following projects.</p>
 
-        <h2>Personal Projects:</h2>
-        <dl>
-            <dt><strong>Ethiopian Multiplication Model</strong></dt>
-                <dd>A C implementation of the ethiopian/mesopotamian model of multiplication</dd>
-            <dt><strong>Sudoku Solver</strong></dt>
-                <dd>A program that solves any Sudoku problem</dd>
-            <dt><strong>Egg Game</strong></dt>
-                <dd>A simple Android game where you catch the falling eggs</dd>
-            <dt><strong>Ultimate Tic Tac Toe</strong></dt>
-                <dd>A game of tac tac toe where every square is a separate game</dd>
-        </dl>
+    <h2>School Projects:</h2>
+    <dl>
+        <dt><strong>Datalog Interpreter</strong></dt>
+        <dd>Designed and implemented a simple datalog interpreter on a relational database.</dd>
+        <dt><strong>Image Editor</strong></dt>
+        <dd>A simple image editor that is capable of performing grayscale, inversions, emboss, and motion blur transformations to images.</dd>
+        <dt><strong>Spell Checker</strong></dt>
+        <dd>Implements a trie to check if a word is spelled correctly and offers the most likely correction.</dd>
+        <dt><strong>Web Server</strong></dt>
+        <dd>A simple implementation of a persistent web server. Correctly handles http requests and store information in a SQL database.</dd>
+        <dt><strong>Family Map Android App</strong></dt>
+        <dd>An Android interface that connects to a web sever to display family history information on a map.</dd>
+    </dl>
 
-        <br>
+    <br>
 
-        <p>For information about professional projects, see <a href="experience.html">experience</a></p>
-    </body>
+    <h2>Personal Projects:</h2>
+    <dl>
+        <dt><strong>Ethiopian Multiplication Model</strong></dt>
+        <dd>A C implementation of the ethiopian/mesopotamian model of multiplication</dd>
+        <dt><strong>Sudoku Solver</strong></dt>
+        <dd>A program that solves any Sudoku problem</dd>
+        <dt><strong>Egg Game</strong></dt>
+        <dd>A simple Android game where you catch the falling eggs</dd>
+        <dt><strong>Ultimate Tic Tac Toe</strong></dt>
+        <dd>A game of tac tac toe where every square is a separate game</dd>
+    </dl>
+
+    <br>
+
+    <p>For information about professional projects, see <a href="experience.html">experience</a></p>
+
+    <div class="footer">
+        <p id="name">Matthew Christensen</p>
+        <p id="year">2020</p>
+    </div>
+</body>
 
 </html>

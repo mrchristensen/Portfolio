@@ -1,0 +1,83 @@
+/* Masonry */
+
+
+/* The Grid */
+
+.masonry {
+    column-gap: 30px;
+    transition: all .5s ease-in-out;
+    column-fill: initial;
+    max-height: inherit;
+}
+
+
+/* Masonry single brick/item */
+
+.masonry .brick {
+    vertical-align: bottom;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+
+/* Bordered */
+
+.masonry.bordered {
+    column-gap: 50px;
+    column-rule: 1px solid #eee;
+}
+
+.masonry.bordered .brick {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+}
+
+
+/* Image effects */
+
+.masonry .brick img {
+    backface-visibility: hidden;
+    transition: all .5s ease-in-out;
+}
+
+.masonry .brick:hover img {
+    opacity: .75;
+}
+
+
+/* Mobil Format */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .masonry {
+        column-count: 2;
+    }
+}
+
+
+/* Bigger screens */
+
+@media only screen and (min-width: 1024px) {
+    .masonry {
+        column-count: 3;
+    }
+    .intro {
+        letter-spacing: 1px;
+    }
+    .desc {
+        font-size: 1.25em;
+    }
+}
+
+.wrapper {
+    max-width: 1080px;
+    max-height: inherit;
+    margin-right: auto;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    margin-left: auto;
+}
+
+.labs-template-default, .single-labs, .postid-2409, .logged-in, .admin-bar, .no-customize-support {
+    max-height: inherit;
+}
