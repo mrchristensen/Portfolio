@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/styles.css" />
     <link rel="stylesheet" href="css/masonry-general.css">
+    <link rel="stylesheet" href="css/show_piece.css">
     <title>Photography</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -13,7 +14,7 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light">
 
-        <a class="navbar-brand" href="index.html"><img src="images/logo.png" height='100' alt="Logo" /></a>
+        <!-- <a class="navbar-brand" href="index.html"><img src="images/logo-real.png" height='50' alt="Logo" /></a> -->
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -23,78 +24,60 @@
             <ul class="nav navbar-nav navbar-collapse d-flex justify-content-left">
 
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="projects.html">Projects</a>
+                    <a class="nav-link" href="projects.html">CS Projects</a>
                 </li>
 
                 <li class="nav-item">
                     <a class="nav-link" href="experience.html">Experience</a>
                 </li>
 
-                <li class="nav-item active">
-                    <a class="nav-link" href="photography.html">Photography</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
             </ul>
 
-            <ul class="nav navbar-nav navbar-collapse d-flex justify-content-end">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav navbar-nav navbar-collapse d-flex justify-content-center">
 
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-                </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="projects.html">Projects</a>
-                </li>
+                    <li>
+                        <a class="navbar-brand" href="index.html"><img src="images/logo-real.png" height='50' alt="Logo" /></a>
+                    </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="experience.html">Experience</a>
-                </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
 
-                <li class="nav-item active">
-                    <a class="nav-link" href="photography.html">Photography</a>
-                </li>
+                <ul class="nav navbar-nav navbar-collapse d-flex justify-content-end">
 
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="photography.html">Photography</a>
+                    </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
-            <!-- <form class="form-inline my-2 my-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="modeling.html">3D Modeling</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="illustrations.html">Illustrations</a>
+                    </li>
+
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="compositions.html">Compositions</a>
+                    </li> -->
+
+                </ul>
+                <!-- <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
       </form> -->
-        </div>
+            </div>
     </nav>
 
     <h1>Portfolio</h1>
 
-
     <div class="show-pieces">
-
-        <!-- <div class="show-piece">
-            <h2 class="show-piece-title"></h2>
-            <p class="show-piece-date"></p>
-            <p class="show-piece-desc"></p>
-
-            <div class="show-piece-sample-photos">
-
-                <div class="show-piece-full-album-button"></div>
-            </div>
-        </div> -->
 
         <div class="show-piece">
 
@@ -106,7 +89,7 @@
                 <p class="show-piece-desc">Capitol Reef blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
                     blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
                 </p>
-                <a class="show-piece-full-album-button button" href="photography-yellowstone.html">
+                <a class="show-piece-full-album-button button" href="photography-capitol-reef.html">
                     <div>See full album</div>
                 </a>
             </div>
@@ -153,7 +136,7 @@
                 <p class="show-piece-desc">Timp blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
                     blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
                 </p>
-                <a class="show-piece-full-album-button button" href="photography-yellowstone.html">
+                <a class="show-piece-full-album-button button" href="photography-timp.html">
                     <div>See full album</div>
                 </a>
             </div>
@@ -234,11 +217,6 @@
             </div>
 
         </div>
-
-        <p>The following pictures are from a trip to yellowstone and the Grand Tetons in June, 2019. All pictures were shot on a Canon SL2 using a 24-85mm and 14-42mm lenses. Minimal touches were added in Lightroom.
-            <br><br> (Forgive the large file sizes - I'm not quite sure how to compress them)</p>
-
-
 
         <!-- Footer -->
         <div class="footer">
