@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    /* margin-bottom: 400px; */
     padding: 0;
     box-sizing: border-box;
 }
@@ -58,6 +59,18 @@ hr {
     align-items: center;
 }
 
+.return {
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.photo-album-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
 
 /* Navbar */
 
@@ -73,6 +86,7 @@ hr {
     Width: 100%;
     bottom: 0;
     height: 20px;
+    margin-top: -20px;
     background-color: #FA9F73;
     display: flex;
     justify-content: space-between;
@@ -107,72 +121,12 @@ hr {
 }
 
 
-/* Showpieces */
-
-.reverse {
-    flex-direction: row-reverse;
-}
-
-.show-piece {
-    margin: 20px;
-    display: flex;
-    justify-content: space-around;
-    /* justify-content: stretch; */
-    max-height: 500px;
-    min-height: 500px;
-    background-color: lightcyan;
-}
-
-.show-piece-info {
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* width: 470px; */
-    max-width: 400px;
-    margin-left: 50px;
-    margin-right: 50px;
-    /* align-content: space-around; */
-    position: relative;
-    background-color: lightcoral;
-}
-
-.show-piece-title, .show-piece-date {
-    padding-bottom: 0;
-    margin-bottom: 0;
-}
-
-.show-piece-date {
-    margin-top: 0;
-    padding-top: 0;
-    font-style: italic;
-}
-
-.show-piece-sample-photos {
-    display: grid;
-    grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-    max-height: inherit;
-    /* max-width: inherit; */
-    background-color: khaki;
-    display: flex;
-    flex-direction: column;
-    justify-content: right;
-    justify-content: space-between;
-    align-self: center;
-}
-
-.show-piece-full-album-button {
-    width: fit-content;
-    right: 10px;
-    bottom: 10px;
-    position: absolute;
-}
-
-
 /* Button */
 
 .button {
     padding: 10px 24px;
+    width: fit-content;
+    height: fit-content;
     background-color: white;
     color: black;
     border: 2px solid lightgray;
@@ -186,7 +140,8 @@ hr {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-.navbar {
+
+/* .navbar {
     position: relative;
 }
 
@@ -194,6 +149,5 @@ hr {
     position: absolute;
     left: 50%;
     margin-left: -50px !important;
-    /* 50% of your logo width */
     display: block;
-}
+} */
