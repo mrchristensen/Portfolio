@@ -9,7 +9,7 @@
     /* justify-content: stretch; */
     max-height: 500px;
     min-height: 500px;
-    background-color: lightcyan;
+    background-color: whitesmoke;
 }
 
 .show-piece-info {
@@ -21,7 +21,7 @@
     margin-right: 50px;
     /* align-content: space-around; */
     position: relative;
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
 }
 
 .show-piece-title, .show-piece-date {
@@ -42,7 +42,7 @@
     grid-row-gap: 10px;
     max-height: inherit;
     /* max-width: inherit; */
-    background-color: khaki;
+    /* background-color: khaki; */
     display: flex;
     flex-direction: column;
     justify-content: right;
