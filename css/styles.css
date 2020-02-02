@@ -121,6 +121,10 @@ li {
     transition-duration: .4s;
 }
 
+.footer p {
+    padding: 0;
+}
+
 .footer:hover {
     opacity: 90%;
 }
