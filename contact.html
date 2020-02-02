@@ -4,6 +4,7 @@
 <head>
     <title>Contact</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/contact-form.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <meta name='viewport' content='width=device-width, initial-scale=1.0' />
 </head>
@@ -67,14 +68,35 @@
 
     <h1>Contact me</h1>
 
-    <p>You can reach out to me at: <a href="mailto: mr.christensen@gmail.com">mr.christensen@gmail.com</a> as well as reaching out to me on <a href="https://github.com/mrchristensen">GitHub</a> or <a href="https://www.linkedin.com/in/mr-christensen/">LinkedIn</a>.</p>
+    <p>You can reach out to me at: <a href="mailto: mr.christensen@gmail.com">mr.christensen@gmail.com</a> as well as reaching out to me on <a href="https://github.com/mrchristensen">GitHub</a> or <a href="https://www.linkedin.com/in/mr-christensen/">LinkedIn</a>.
+        Or you can fill out the form below.</p>
 
     <div class="footer">
         <p id="name">Matthew Christensen</p>
         <p id="year">2020</p>
     </div>
 
+    <div class="container">
+        <form action="action_page.php">
 
+            <label for="name">Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name...">
+
+            <label for="email">Email</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your email...">
+
+            <label for="subject">Message</label>
+            <textarea id="subject" name="subject" placeholder="Your message..." style="height:200px"></textarea>
+
+            <!-- <input type="submit" value="Submit"> -->
+            <a class="submit-button button" href="contact.html">
+                <div>Submit</div>
+            </a>
+
+            <p></p>
+
+        </form>
+    </div>
 
     <!-- Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
