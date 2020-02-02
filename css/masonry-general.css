@@ -95,10 +95,11 @@ html {
     box-sizing: inherit;
 }
 
-body {
+
+/* body {
     background-color: #cccccc;
     color: #333333;
-}
+} */
 
 .masonry-wrapper {
     padding: 1.5em;

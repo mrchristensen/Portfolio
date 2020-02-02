@@ -7,14 +7,14 @@
 
 @media only screen and (max-width: 400px) {
     body {
-        background-color: #F09A9D;
+        /* background-color: #F09A9D; */
         /* Red */
     }
 }
 
 body {
     color: #414141;
-    background-color: #EEEEEE;
+    background-color: #ffffff;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -22,15 +22,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 36px;
-    padding: 16px 16px 8px 16px;
-    border-bottom: 1px solid #5D6063;
-    background-color: #DDE0E3;
+    width: fit-content;
+    height: fit-content;
+    background-color: #e5e5e5;
+    color: #414141 !important;
+    border-radius: 12px;
+    font-size: 32px !important;
+    padding: 8px 16px;
+    margin: 19px !important;
+    /* margin-top: 20px; */
     /* Light gray */
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 28px !important;
+    padding-left: 12px;
 }
 
 p {
@@ -41,6 +47,7 @@ hr {
     width: 75%;
     text-align: center;
     margin: 0 auto;
+    border-radius: 12px;
 }
 
 
@@ -87,9 +94,15 @@ hr {
     bottom: 0;
     height: 20px;
     margin-top: -20px;
-    background-color: #FA9F73;
+    background-color: #e5e5e5;
     display: flex;
     justify-content: space-between;
+    opacity: 50%;
+    transition-duration: .4s;
+}
+
+.footer:hover {
+    opacity: 100%;
 }
 
 #year {
@@ -118,13 +131,16 @@ hr {
         padding: 0;
         margin: 0;
     }
+    .footer {
+        opacity: 100%;
+    }
 }
 
 
 /* Button */
 
 .button {
-    padding: 10px 24px;
+    padding: 6px 12px;
     width: fit-content;
     height: fit-content;
     background-color: white;

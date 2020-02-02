@@ -7,9 +7,10 @@
     display: flex;
     justify-content: space-around;
     /* justify-content: stretch; */
+    border-radius: 12px;
     max-height: 500px;
     min-height: 500px;
-    background-color: whitesmoke;
+    background-color: #f2f2f2;
 }
 
 .show-piece-info {
@@ -21,12 +22,20 @@
     margin-right: 50px;
     /* align-content: space-around; */
     position: relative;
-    /* background-color: lightcoral; */
+    background-color: #e5e5e5;
+    margin: 12px;
+    padding: 12px;
+    border-radius: 12px;
 }
 
 .show-piece-title, .show-piece-date {
     padding-bottom: 0;
     margin-bottom: 0;
+}
+
+.show-piece-date {
+    font-size: 12px;
+    padding-left: 10px;
 }
 
 .show-piece-date {
