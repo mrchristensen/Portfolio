@@ -29,8 +29,6 @@ h1 {
     font-size: 32px !important;
     padding: 8px 16px;
     margin: 19px !important;
-    /* margin-top: 20px; */
-    /* Light gray */
 }
 
 h2 {
@@ -49,11 +47,34 @@ hr {
     border-radius: 12px;
 }
 
+.content-box {
+    width: fit-content;
+    height: fit-content;
+    background-color: #f2f2f2;
+    border-radius: 12px;
+    padding: 8px 16px;
+    margin: 19px !important;
+}
 
-/* em
-{
-    color: #906015;
-} */
+.content-sub-box {
+    width: inherit;
+    height: fit-content;
+    background-color: #e5e5e5;
+    border-radius: 12px;
+    padding: 8px 16px;
+    margin: 19px !important;
+}
+
+li {
+    margin-left: 12px;
+}
+
+.sub-title {
+    padding: 0px;
+    padding-left: 24px;
+    margin-bottom: 0;
+    font-style: italic;
+}
 
 .byu-logo {
     margin: 10px;
