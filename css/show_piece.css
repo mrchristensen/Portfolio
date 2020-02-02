@@ -13,6 +13,12 @@
     background-color: #f2f2f2;
 }
 
+@media only screen and (max-device-width: 640px) {
+    .show-piece {
+        max-height: 1600000px;
+    }
+}
+
 .show-piece-info {
     /* display: flex; */
     /* flex-direction: column; */
