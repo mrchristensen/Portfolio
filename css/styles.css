@@ -107,11 +107,12 @@ li {
 
 .navbar-light .navbar-nav .nav-link {
     color: rgba(0, 0, 0);
+    font-weight: lighter;
 }
 
 .navbar-light .navbar-nav .active .nav-link {
     color: rgba(0, 0, 0);
-    font-weight: bold;
+    font-weight: normal;
 }
 
 
