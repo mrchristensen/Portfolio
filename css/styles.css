@@ -105,6 +105,15 @@ li {
     background-color: #e3f2fd;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0);
+}
+
+.navbar-light .navbar-nav .active .nav-link {
+    color: rgba(0, 0, 0);
+    font-weight: bold;
+}
+
 
 /* Footer */
 
