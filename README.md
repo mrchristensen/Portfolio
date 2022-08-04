@@ -5,4 +5,4 @@ Old school project portfolio
 ## Commands
 
 python -m SimpleHTTPServer
-http://localhost:8000/
+```http://localhost:8000/```
