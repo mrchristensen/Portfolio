@@ -1,6 +1,6 @@
 # Portfolio
 
-Old school project portfolio
+Old portfolio for a school project 
 
 ## Commands
 
